@@ -22,21 +22,6 @@ The project covers **2024–2025 fiscal data** spanning **502 transactions**, **
 
 ---
 
-## 📂 File Structure
-
-```
-📦 MedRx-Pharmacy-Sales-Analysis
-├── Pharmacy_Sales_Analysis.xlsx
-│   ├── Raw_Data          ← Original unprocessed transaction log
-│   ├── Clean_Data        ← Transformed & standardized dataset
-│   ├── Sheet1            ← Working/staging sheet
-│   ├── Pivot_Analysis    ← Aggregated pivot summaries
-│   ├── Sales Intelligence ← Dashboard 1 (Monthly trends, regional category revenue)
-│   └── Market Pulse      ← Dashboard 2 (Top drugs, seasonal demand, rep performance)
-├── Sales_Intelligence.png
-├── Market_Pulse.png
-└── README.md
-```
 
 ---
 
