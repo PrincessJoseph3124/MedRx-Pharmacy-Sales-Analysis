@@ -20,10 +20,6 @@
 
 The project covers **2024–2025 fiscal data** spanning **502 transactions**, **8 drug SKUs**, **4 product categories**, **4 geographic regions**, and **5 sales representatives**.
 
----
-
-
----
 
 ## 🗂️ Dataset Schema
 
