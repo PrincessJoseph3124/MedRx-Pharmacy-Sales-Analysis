@@ -1,10 +1,10 @@
-# 💊 MedRx Pharmacy Sales Analysis Dashboard
+# MedRx Pharmacy Sales Analysis Dashboard
 
 > An interactive Excel-based business intelligence dashboard analyzing pharmaceutical sales performance across four Nigerian regions — built with raw transaction data, Power Query cleaning, Pivot Tables, and fully designed dashboards.
 
 ---
 
-## 📸 Dashboard Previews
+##  Dashboard Previews
 
 ### 🔹 Sales Intelligence — Revenue & Trend Overview
 ![Sales Intelligence Dashboard](Sales_Intelligence.png)
@@ -14,14 +14,14 @@
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 **MedRx** is a pharmacy sales analytics project designed to uncover revenue performance patterns, regional drug demand, sales rep efficiency, and seasonal consumption dynamics across Nigeria's pharmaceutical retail landscape.
 
 The project covers **2024–2025 fiscal data** spanning **502 transactions**, **8 drug SKUs**, **4 product categories**, **4 geographic regions**, and **5 sales representatives**.
 
 
-## 🗂️ Dataset Schema
+##  Dataset Schema
 
 The **Clean_Data** sheet is the analytical backbone of the project. Each of the 502 rows represents a single sales transaction with the following fields:
 
@@ -53,7 +53,7 @@ The **Clean_Data** sheet is the analytical backbone of the project. Each of the 
 
 ---
 
-## 🌍 Dimensions
+##  Dimensions
 
 ### Regions
 - Western Nigeria
@@ -77,35 +77,35 @@ The **Clean_Data** sheet is the analytical backbone of the project. Each of the 
 
 ---
 
-## 📊 Dashboard 1 — Sales Intelligence
+##  Dashboard 1 — Sales Intelligence
 
 The **Sales Intelligence** dashboard provides a high-level executive overview.
 
 **KPI Cards (with YoY comparison)**
-- 💰 **Revenue:** $3,613,765 — ▼ 56.6% vs Prior Year
-- 📦 **Units Sold:** 55,987 — ▼ 58.2% vs Prior Year
-- 📈 **Profit:** $272,872 — ▼ 57.3% vs Prior Year
-- 🎯 **Profit Margin:** 8% — ▼ 52.4% vs Prior Year
+-  **Revenue:** $3,613,765 — ▼ 56.6% vs Prior Year
+-  **Units Sold:** 55,987 — ▼ 58.2% vs Prior Year
+-  **Profit:** $272,872 — ▼ 57.3% vs Prior Year
+-  **Profit Margin:** 8% — ▼ 52.4% vs Prior Year
 
 **Charts Included**
-- 📉 Monthly Revenue Trend (Jan–Dec line chart)
-- 🗺️ Regional Drug Category Revenue (grouped bar by region and category)
-- 📊 Revenue & Units Sold by Region (bar chart — Western Nigeria leads at ₦989K)
-- 🍩 Sales Rep Performance (donut chart — Mohammed Bello leads at ₦882K)
-- 📊 Revenue & Units Sold by Category (CAT-CARD tops at ₦1,008K)
+-  Monthly Revenue Trend (Jan–Dec line chart)
+-  Regional Drug Category Revenue (grouped bar by region and category)
+-  Revenue & Units Sold by Region (bar chart — Western Nigeria leads at ₦989K)
+-  Sales Rep Performance (donut chart — Mohammed Bello leads at ₦882K)
+-  Revenue & Units Sold by Category (CAT-CARD tops at ₦1,008K)
 
 **Slicers:** Month · Sales Rep · (Toggle: 2024 / 2025)
 
 ---
 
-## 📊 Dashboard 2 — Market Pulse
+##  Dashboard 2 — Market Pulse
 
 The **Market Pulse** dashboard focuses on product-level intelligence and seasonal behavior.
 
 **Charts Included**
-- 🏆 Top Selling Drugs (bar chart) — Heartzol leads at ₦552K
-- 💹 Revenue vs Profit Scatter by Region — Eastern Nigeria shows strong margin outliers
-- 📅 Seasonal Drug Demand Pattern (monthly heatmap table across 4 drug classes)
+-  Top Selling Drugs (bar chart) — Heartzol leads at ₦552K
+-  Revenue vs Profit Scatter by Region — Eastern Nigeria shows strong margin outliers
+-  Seasonal Drug Demand Pattern (monthly heatmap table across 4 drug classes)
 
 **Seasonal Demand Highlights (Units)**
 
@@ -124,15 +124,15 @@ The **Market Pulse** dashboard focuses on product-level intelligence and seasona
 
 The **Raw_Data** sheet contained several quality issues that were resolved in **Clean_Data**:
 
-- ✅ Standardized inconsistent region names (e.g., `"Northern Nigerians"` → `"Northern Nigeria"`)
-- ✅ Removed extra whitespace from drug names and category values
-- ✅ Normalized sales rep name casing (`"JANE AKINS"` → `"Jane Akins"`)
-- ✅ Added derived columns: `Long Month`, `Month`, `Year`, `Profit_Margin`
-- ✅ Ensured consistent ID formatting across Region, Drug, Category, and Rep fields
+-  Standardized inconsistent region names (e.g., `"Northern Nigerians"` → `"Northern Nigeria"`)
+-  Removed extra whitespace from drug names and category values
+-  Normalized sales rep name casing (`"JANE AKINS"` → `"Jane Akins"`)
+-  Added derived columns: `Long Month`, `Month`, `Year`, `Profit_Margin`
+-  Ensured consistent ID formatting across Region, Drug, Category, and Rep fields
 
 ---
 
-## 🔬 Key Insights
+##  Key Insights
 
 1. **Revenue declined sharply YoY** — all four KPIs fell over 50%, signaling a significant drop in sales volume or pricing in 2025 vs 2024.
 2. **Heartzol (Cardiovascular)** is the top-grossing drug at ₦552K, followed closely by Maxilin (Antibiotic) at ₦502K.
@@ -144,7 +144,7 @@ The **Raw_Data** sheet contained several quality issues that were resolved in **
 
 ---
 
-## 🛠️ Tools Used
+##  Tools Used
 
 | Tool | Purpose |
 |---|---|
@@ -156,7 +156,7 @@ The **Raw_Data** sheet contained several quality issues that were resolved in **
 
 ---
 
-## 🚀 How to Use
+##  How to Use
 
 1. **Download** `Pharmacy_Sales_Analysis.xlsx`
 2. Open in **Microsoft Excel** (2016 or later recommended for full slicer/pivot support)
@@ -168,10 +168,10 @@ The **Raw_Data** sheet contained several quality issues that were resolved in **
 
 ---
 
-## 📬 Contact
+##  Contact
 
 Have questions or feedback? Feel free to open an issue or reach out via GitHub Discussions.
 
 ---
 
-*Built with ❤️ using Microsoft Excel | Data: Nigerian Pharmaceutical Retail (Simulated)*
+*Built using Microsoft Excel | Data: Nigerian Pharmaceutical Retail (Simulated)*
