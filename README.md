@@ -42,7 +42,7 @@ The project covers **2024–2025 fiscal data** spanning **502 transactions**, **
 
 ---
 
-## 🗃️ Sheet 1 — Raw Data
+## Sheet 1 — Raw Data
 
 ![Raw Data Sheet](Raw_Data.png)
 
