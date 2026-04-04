@@ -6,10 +6,10 @@
 
 ##  Dashboard Previews
 
-### 🔹 Sales Intelligence — Revenue & Trend Overview
+### Sales Intelligence — Revenue & Trend Overview
 ![Sales Intelligence Dashboard](Sales_Intelligence.png)
 
-### 🔹 Market Pulse — Regional & Category Breakdown
+### Market Pulse — Regional & Category Breakdown
 ![Market Pulse Dashboard](Market_Pulse.png)
 
 ---
