@@ -253,7 +253,7 @@ The **Market Pulse** dashboard focuses on product-level intelligence and seasona
 
 ---
 
-## 📬 Contact
+## Contact
 
 Have questions or feedback? Feel free to open an issue or reach out via GitHub Discussions.
 
